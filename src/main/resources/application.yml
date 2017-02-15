@@ -1,0 +1,34 @@
+spring:
+  profiles.active: default
+---
+spring:
+  profiles: default
+
+doge:
+  wow: 10
+  such: so
+  very: true
+
+---
+spring:
+  profiles: dev
+
+doge:
+  wow: 10000
+  such: saou
+  very: false
+
+---
+spring:
+  profiles: prod
+
+doge:
+  wow: 555555555555555555555555555
+  such: so55555555555555555555555555
+  very: true555555555555555555555
+
+---
+spring:
+   profiles: unit-test
+doge:
+  wow: 4
