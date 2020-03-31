@@ -6,7 +6,7 @@ spring:
     name: foo
   
   profiles:
-    active: prod
+    active: DEV
   cloud:
     config:
       uri: http://localhost:8081
